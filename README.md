@@ -1,5 +1,6 @@
 # Ruby SAML Identity Provider (IdP)
 
+
 [![Build Status](https://secure.travis-ci.org/lawrencepit/ruby-saml-idp.png)](http://travis-ci.org/lawrencepit/ruby-saml-idp?branch=master)
 [![Code Climate](https://codeclimate.com/github/lawrencepit/ruby-saml-idp/badges/gpa.svg)](https://codeclimate.com/github/lawrencepit/ruby-saml-idp)
 [![Gem Version](https://fury-badge.herokuapp.com/rb/ruby-saml-idp.png)](http://badge.fury.io/rb/ruby-saml-idp)
@@ -8,6 +9,9 @@ The ruby SAML Identity Provider library is for implementing the server side of S
 
 Setting up a "real" IdP is such an undertaking I didn't care for such an achievement. I wanted something very simple that just works without having to install extra components and setup extra infrastructure. In it's current form it's basic. This is because currently I use it for manual and end-to-end testing purposes of the Service Provider side only. It is reversed engineered from real-world SAML Responses sent by ADFS systems.
 
+### CDD changes
+All CDD changes are on the controller that were needed to make it work with our SAML setup (being intentionally vague here since I actually don't
+remember the reason behind all the changes).
 
 Installation and Usage
 ----------------------
